@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Livvic", "Arial", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0b944f;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0a7a42; 
+}
+
+.phone-list__item {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 15px 25px;
+  background-color: #0b944f;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.8);
+}
+
+.phone-list__item:hover {
+  background-color: #16a05b;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.8);
+}
+
+.name-span {
+  margin-right: 5px;
+}

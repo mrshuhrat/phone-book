@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4-oy 13-dars | Vazifa</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ 
+  <div class="container-lg">  
+    <div class="row">
+
+      <div class="col-6 flex-grow-1 p-0 border-right vh-100 pt-4">
+
+        <h1 class="text-success mb-5">Phone number book</h1>
+        <form class="js-phone-number-book" action="https://echo.htmlacademy.ru">
+          <input class="form-control w-50 mb-4 shadow js-name-input" type="text" name="name" id="" placeholder="Name" required>
+          <input class="form-control w-50 mb-4 shadow js-surename-input" type="text" name="surename" id="" placeholder="Surname" required>
+          <input class="form-control w-50 mb-4 shadow js-tel-number-input" type="tel" name="number" id="" placeholder="998 12 345 6789" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required>
+          <input class="form-control w-50 mb-4 shadow js-contact-input" type="text" name="contact" id="" placeholder="Relationship" required>
+          <button class="btn bg-success text-white w-50 mt-5 shadow font-weight-bold" type="submit">Add Contact</button>
+        </form>
+
+      </div>
+
+      <div class="contact-wrapper col-6 flex-grow-1 p-0 vh-100 pt-4 overflow-hidden">
+        <h2 class="contact-wrapper__header h1 text-success font-weight-bold text-center mb-2">Contact</h2>
+        <ul class="js-contact-list list-unstyled m-0 p-0 h-100 overflow-auto mx-auto text-light pt-5">
+          <li class="phone-list__item">
+            <p>Name: <span class="name-span">Shuhratbek</span> <span>Qobulov</span></p>
+            <p>Phone: <span>+99890 204 5988</span></p>
+            <p>Relationship: <span>Myself</span></p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/utilities.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
